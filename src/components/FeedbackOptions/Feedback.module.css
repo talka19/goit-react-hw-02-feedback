@@ -1,13 +1,17 @@
 .button {
   font-size: 23px;
-  text-decoration: none;
   cursor: pointer;
-  display: block;
-  width: 90px;
   font-weight: bold;
-  margin: 20px auto;
   text-align: center;
-  padding: 1px 5px;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 20px;
+  width: 100px;
+}
+
+.button__container {
+  text-align: center;
 }
 
 

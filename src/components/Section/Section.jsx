@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 
 export const Section = ({title, children}) => {
     return (
-      <Section className={css.section}>
+      <section className={css.section}>
        <h2 className={css.title}>{title}</h2>
        {children}
-      </Section>
+      </section>
     )
 };
 
